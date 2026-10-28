@@ -70,7 +70,7 @@ export function NotificationsForm() {
                       <RadioGroupItem value='all' />
                     </FormControl>
                     <FormLabel className='font-normal'>
-                      All new messages
+                      所有新消息
                     </FormLabel>
                   </FormItem>
                   <FormItem className='flex items-center'>
@@ -78,14 +78,14 @@ export function NotificationsForm() {
                       <RadioGroupItem value='mentions' />
                     </FormControl>
                     <FormLabel className='font-normal'>
-                      Direct messages and mentions
+                      私信和提及
                     </FormLabel>
                   </FormItem>
                   <FormItem className='flex items-center'>
                     <FormControl>
                       <RadioGroupItem value='none' />
                     </FormControl>
-                    <FormLabel className='font-normal'>Nothing</FormLabel>
+                    <FormLabel className='font-normal'>不接收</FormLabel>
                   </FormItem>
                 </RadioGroup>
               </FormControl>
@@ -103,10 +103,10 @@ export function NotificationsForm() {
                 <FormItem className='flex flex-row items-center justify-between rounded-lg border p-4'>
                   <div className='space-y-0.5'>
                     <FormLabel className='text-base'>
-                      Communication emails
+                      往来邮件
                     </FormLabel>
                     <FormDescription>
-                      Receive emails about your account activity.
+                      接收与你的账号动态相关的邮件。
                     </FormDescription>
                   </div>
                   <FormControl>
@@ -125,10 +125,10 @@ export function NotificationsForm() {
                 <FormItem className='flex flex-row items-center justify-between rounded-lg border p-4'>
                   <div className='space-y-0.5'>
                     <FormLabel className='text-base'>
-                      Marketing emails
+                      营销邮件
                     </FormLabel>
                     <FormDescription>
-                      Receive emails about new products, features, and more.
+                      接收新产品、功能等相关的邮件。
                     </FormDescription>
                   </div>
                   <FormControl>
@@ -148,7 +148,7 @@ export function NotificationsForm() {
                   <div className='space-y-0.5'>
                     <FormLabel className='text-base'>社交邮件</FormLabel>
                     <FormDescription>
-                      Receive emails for friend requests, follows, and more.
+                      接收好友请求、关注等相关的邮件。
                     </FormDescription>
                   </div>
                   <FormControl>
@@ -168,7 +168,7 @@ export function NotificationsForm() {
                   <div className='space-y-0.5'>
                     <FormLabel className='text-base'>安全邮件</FormLabel>
                     <FormDescription>
-                      Receive emails about your account activity and security.
+                      接收与你的账号动态和安全相关的邮件。
                     </FormDescription>
                   </div>
                   <FormControl>
@@ -197,17 +197,17 @@ export function NotificationsForm() {
               </FormControl>
               <div className='space-y-1 leading-none'>
                 <FormLabel>
-                  Use different settings for my mobile devices
+                  为我的移动设备使用不同的设置
                 </FormLabel>
                 <FormDescription>
-                  You can manage your mobile notifications in the{' '}
+                  你可以在
                   <Link
                     to='/settings'
                     className='underline decoration-dashed underline-offset-4 hover:decoration-solid'
                   >
-                    mobile settings
-                  </Link>{' '}
-                  page.
+                    移动设备设置
+                  </Link>
+                  页面管理移动通知。
                 </FormDescription>
               </div>
             </FormItem>
