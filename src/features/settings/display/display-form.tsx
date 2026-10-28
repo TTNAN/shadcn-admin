@@ -17,7 +17,7 @@ import {
 const items = [
   {
     id: 'recents',
-    label: 'Recents',
+    label: '最近使用',
   },
   {
     id: 'home',
@@ -25,7 +25,7 @@ const items = [
   },
   {
     id: 'applications',
-    label: 'Applications',
+    label: '应用',
   },
   {
     id: 'desktop',
@@ -33,11 +33,11 @@ const items = [
   },
   {
     id: 'downloads',
-    label: 'Downloads',
+    label: '下载',
   },
   {
     id: 'documents',
-    label: 'Documents',
+    label: '文档',
   },
 ] as const
 
@@ -74,7 +74,7 @@ export function DisplayForm() {
               <div className='mb-4'>
                 <FormLabel className='text-base'>侧边栏</FormLabel>
                 <FormDescription>
-                  Select the items you want to display in the sidebar.
+                  选择你想在侧边栏中显示的项目。
                 </FormDescription>
               </div>
               {items.map((item) => (
