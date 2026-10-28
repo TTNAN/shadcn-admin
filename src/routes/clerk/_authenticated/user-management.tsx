@@ -78,8 +78,7 @@ function UserManagement() {
                 </p>
 
                 <p className='mt-4'>
-                  You can sign out or manage/delete your account via the User
-                  Profile menu in the top-right corner of the page.
+                  你可以通过页面右上角的用户资料菜单退出登录或管理/删除账号。
                   <ExternalLink className='inline-block size-4' />
                 </p>
               </LearnMore>

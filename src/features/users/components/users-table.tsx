@@ -180,7 +180,7 @@ export function UsersTable({ data, search, navigate }: DataTableProps) {
                   colSpan={columns.length}
                   className='h-24 text-center'
                 >
-                  No results.
+                  没有结果。
                 </TableCell>
               </TableRow>
             )}

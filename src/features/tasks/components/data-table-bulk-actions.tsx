@@ -36,7 +36,7 @@ export function DataTableBulkActions<TData>({
       loading: '正在更新状态…',
       success: () => {
         table.resetRowSelection()
-        return `Status updated to "${status}" for ${selectedTasks.length} task${selectedTasks.length > 1 ? 's' : ''}.`
+        return `已为 ${selectedTasks.length} 个任务将状态更新为“${status}”。`
       },
       error: '错误',
     })
@@ -49,7 +49,7 @@ export function DataTableBulkActions<TData>({
       loading: '正在更新优先级…',
       success: () => {
         table.resetRowSelection()
-        return `Priority updated to "${priority}" for ${selectedTasks.length} task${selectedTasks.length > 1 ? 's' : ''}.`
+        return `已为 ${selectedTasks.length} 个任务将优先级更新为“${priority}”。`
       },
       error: '错误',
     })
@@ -62,7 +62,7 @@ export function DataTableBulkActions<TData>({
       loading: '正在导出任务…',
       success: () => {
         table.resetRowSelection()
-        return `Exported ${selectedTasks.length} task${selectedTasks.length > 1 ? 's' : ''} to CSV.`
+        return `已将 ${selectedTasks.length} 个任务导出为 CSV。`
       },
       error: '错误',
     })
@@ -97,7 +97,7 @@ export function DataTableBulkActions<TData>({
               <DropdownMenuItem
                 key={status.value}
                 defaultValue={status.value}
-                onClick={() => handleBulkStatusChange(status.value)}
+                onClick={() => handleBulkStatusChange(status.label)}
               >
                 {status.icon && (
                   <status.icon className='size-4 text-muted-foreground' />
@@ -133,7 +133,7 @@ export function DataTableBulkActions<TData>({
               <DropdownMenuItem
                 key={priority.value}
                 defaultValue={priority.value}
-                onClick={() => handleBulkPriorityChange(priority.value)}
+                onClick={() => handleBulkPriorityChange(priority.label)}
               >
                 {priority.icon && (
                   <priority.icon className='size-4 text-muted-foreground' />

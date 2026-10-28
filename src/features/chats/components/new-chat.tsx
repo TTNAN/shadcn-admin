@@ -57,7 +57,7 @@ export function NewChat({ users, onOpenChange, open }: NewChatProps) {
         </DialogHeader>
         <div className='flex flex-col gap-4'>
           <div className='flex flex-wrap items-baseline-last gap-2'>
-            <span className='min-h-6 text-sm text-muted-foreground'>To:</span>
+            <span className='min-h-6 text-sm text-muted-foreground'>收件人：</span>
             {selectedUsers.map((user) => (
               <Badge key={user.id} variant='default'>
                 {user.fullName}

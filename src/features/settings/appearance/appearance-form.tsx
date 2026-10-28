@@ -77,7 +77,7 @@ export function AppearanceForm() {
                 <ChevronDownIcon className='absolute inset-e-3 top-2.5 h-4 w-4 opacity-50' />
               </div>
               <FormDescription className='font-manrope'>
-                Set the font you want to use in the dashboard.
+                设置你想在仪表盘中使用的字体。
               </FormDescription>
               <FormMessage />
             </FormItem>
@@ -90,7 +90,7 @@ export function AppearanceForm() {
             <FormItem>
               <FormLabel>主题</FormLabel>
               <FormDescription>
-                Select the theme for the dashboard.
+                为仪表盘选择主题。
               </FormDescription>
               <FormMessage />
               <RadioGroup

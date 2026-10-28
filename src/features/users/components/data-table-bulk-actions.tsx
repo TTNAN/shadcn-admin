@@ -26,12 +26,12 @@ export function DataTableBulkActions<TData>({
   const handleBulkStatusChange = (status: 'active' | 'inactive') => {
     const selectedUsers = selectedRows.map((row) => row.original as User)
     toast.promise(sleep(2000), {
-      loading: `${status === 'active' ? '正在激活…' : '正在停用…'} users...`,
+      loading: `${status === 'active' ? '正在激活用户…' : '正在停用用户…'}`,
       success: () => {
         table.resetRowSelection()
-        return `${status === 'active' ? '已激活' : '已停用'} ${selectedUsers.length} user${selectedUsers.length > 1 ? 's' : ''}`
+        return `${status === 'active' ? '已激活' : '已停用'} ${selectedUsers.length} 名用户`
       },
-      error: `Error ${status === 'active' ? 'activating' : 'deactivating'} users`,
+      error: `${status === 'active' ? '激活用户失败' : '停用用户失败'}`,
     })
     table.resetRowSelection()
   }
@@ -42,7 +42,7 @@ export function DataTableBulkActions<TData>({
       loading: '正在邀请用户…',
       success: () => {
         table.resetRowSelection()
-        return `Invited ${selectedUsers.length} user${selectedUsers.length > 1 ? 's' : ''}`
+        return `已邀请 ${selectedUsers.length} 名用户`
       },
       error: '邀请用户失败',
     })

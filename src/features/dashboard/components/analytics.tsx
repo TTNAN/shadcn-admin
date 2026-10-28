@@ -105,7 +105,7 @@ export function Analytics() {
             </svg>
           </CardHeader>
           <CardContent>
-            <div className='text-2xl font-bold'>3m 24s</div>
+            <div className='text-2xl font-bold'>3分24秒</div>
             <p className='text-xs text-muted-foreground'>较上周 +18 秒</p>
           </CardContent>
         </Card>

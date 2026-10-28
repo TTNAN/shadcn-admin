@@ -74,7 +74,7 @@ export function UsersMultiDeleteDialog<TData>({
           className='space-y-4'
         >
           <p className='mb-2'>
-            Are you sure you want to delete the selected users? <br />
+            你确定要删除所选用户吗？ <br />
             此操作无法撤销。
           </p>
 
@@ -91,7 +91,7 @@ export function UsersMultiDeleteDialog<TData>({
           <Alert variant='destructive'>
             <AlertTitle>警告！</AlertTitle>
             <AlertDescription>
-              Please be careful, this operation can not be rolled back.
+              请谨慎操作，此操作无法撤销。
             </AlertDescription>
           </Alert>
         </form>

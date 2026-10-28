@@ -95,7 +95,7 @@ export function Apps() {
       <Main fixed>
         <div>
           <h1 className='text-2xl font-bold tracking-tight'>
-            App Integrations
+            应用集成
           </h1>
           <p className='text-muted-foreground'>
             以下是可用于集成的应用列表！

@@ -5,76 +5,76 @@
       "profile": "https://randomuser.me/api/portraits/men/32.jpg",
       "username": "alex_dev",
       "fullName": "Alex John",
-      "title": "Senior Backend Dev",
+      "title": "高级后端开发",
       "messages": [
         {
-          "sender": "You",
-          "message": "See you later, Alex!",
+          "sender": "你",
+          "message": "回头见，Alex！",
           "timestamp": "2024-08-24T11:15:15"
         },
         {
           "sender": "Alex",
-          "message": "Alright, talk to you later!",
+          "message": "好的，回头聊！",
           "timestamp": "2024-08-24T11:11:30"
         },
         {
-          "sender": "You",
-          "message": "For sure. Anyway, I should get back to reviewing the project.",
+          "sender": "你",
+          "message": "没问题。对了，我得回去继续评审项目了。",
           "timestamp": "2024-08-23T09:26:50"
         },
         {
           "sender": "Alex",
-          "message": "Yeah, let me know what you think.",
+          "message": "好的，告诉我你的想法。",
           "timestamp": "2024-08-23T09:25:15"
         },
         {
-          "sender": "You",
-          "message": "Oh, nice! I've been waiting for that. I'll check it out later.",
+          "sender": "你",
+          "message": "哦，不错！我一直在等这个，晚点我去看看。",
           "timestamp": "2024-08-23T09:24:30"
         },
         {
           "sender": "Alex",
-          "message": "They've added a dark mode option! It looks really sleek.",
+          "message": "他们加了深色模式选项！看起来很酷。",
           "timestamp": "2024-08-23T09:23:10"
         },
         {
-          "sender": "You",
-          "message": "No, not yet. What's new?",
+          "sender": "你",
+          "message": "还没呢，有什么新东西？",
           "timestamp": "2024-08-23T09:22:00"
         },
         {
           "sender": "Alex",
-          "message": "By the way, have you seen the new feature update?",
+          "message": "对了，你看到新功能更新了吗？",
           "timestamp": "2024-08-23T09:21:05"
         },
         {
-          "sender": "You",
-          "message": "Will do! Thanks, Alex.",
+          "sender": "你",
+          "message": "好的！谢谢你，Alex。",
           "timestamp": "2024-08-23T09:20:10"
         },
         {
           "sender": "Alex",
-          "message": "Great! Let me know if you need any help.",
+          "message": "太好了！需要帮忙随时说。",
           "timestamp": "2024-08-23T09:19:20"
         },
         {
-          "sender": "You",
-          "message": "Almost done. Just need to review a few things.",
+          "sender": "你",
+          "message": "快完成了，只剩几处要评审。",
           "timestamp": "2024-08-23T09:18:45"
         },
         {
           "sender": "Alex",
-          "message": "I'm good, thanks! Did you finish the project?",
+          "message": "我挺好的，谢谢！项目你完成了吗？",
           "timestamp": "2024-08-23T09:17:10"
         },
         {
-          "sender": "You",
-          "message": "Hey Alex, I'm doing well! How about you?",
+          "sender": "你",
+          "message": "嘿 Alex，我挺好的！你呢？",
           "timestamp": "2024-08-23T09:16:30"
         },
         {
           "sender": "Alex",
-          "message": "Hey Bob, how are you doing?",
+          "message": "嘿 Bob，你最近怎么样？",
           "timestamp": "2024-08-23T09:15:00"
         }
       ]
@@ -84,21 +84,21 @@
       "profile": "https://randomuser.me/api/portraits/women/45.jpg",
       "username": "taylor.codes",
       "fullName": "Taylor Grande",
-      "title": "Tech Lead",
+      "title": "技术负责人",
       "messages": [
         {
           "sender": "Taylor",
-          "message": "Yeah, it's really well-explained. You should give it a try.",
+          "message": "是啊，讲得特别清楚，你应该试试。",
           "timestamp": "2024-08-23T10:35:00"
         },
         {
-          "sender": "You",
-          "message": "Not yet, is it good?",
+          "sender": "你",
+          "message": "还没呢，讲得好吗？",
           "timestamp": "2024-08-23T10:32:00"
         },
         {
           "sender": "Taylor",
-          "message": "Hey, did you check out that new tutorial?",
+          "message": "嘿，你看了那个新教程吗？",
           "timestamp": "2024-08-23T10:30:00"
         }
       ]
@@ -108,26 +108,26 @@
       "profile": "https://randomuser.me/api/portraits/men/54.jpg",
       "username": "john_stack",
       "fullName": "John Doe",
-      "title": "QA",
+      "title": "测试工程师",
       "messages": [
         {
-          "sender": "You",
-          "message": "Yep, see ya. 👋🏼",
+          "sender": "你",
+          "message": "嗯，回见。👋🏼",
           "timestamp": "2024-08-22T18:59:00"
         },
         {
           "sender": "John",
-          "message": "Great, see you then!",
+          "message": "太好了，到时见！",
           "timestamp": "2024-08-22T18:55:00"
         },
         {
-          "sender": "You",
-          "message": "Yes, same time as usual. I'll send the invite shortly.",
+          "sender": "你",
+          "message": "是的，还是老时间，我马上发邀请。",
           "timestamp": "2024-08-22T18:50:00"
         },
         {
           "sender": "John",
-          "message": "Are we still on for the meeting tomorrow?",
+          "message": "明天的会还照常吗？",
           "timestamp": "2024-08-22T18:45:00"
         }
       ]
@@ -137,26 +137,26 @@
       "profile": "https://randomuser.me/api/portraits/women/29.jpg",
       "username": "megan_frontend",
       "fullName": "Megan Flux",
-      "title": "Jr Developer",
+      "title": "初级开发",
       "messages": [
         {
-          "sender": "You",
-          "message": "Sure ✌🏼",
+          "sender": "你",
+          "message": "没问题 ✌🏼",
           "timestamp": "2024-08-23T11:30:00"
         },
         {
           "sender": "Megan",
-          "message": "Thanks, appreciate it!",
+          "message": "谢谢，感激不尽！",
           "timestamp": "2024-08-23T11:30:00"
         },
         {
-          "sender": "You",
-          "message": "Sure thing! I'll take a look in the next hour.",
+          "sender": "你",
+          "message": "没问题！我一小时内看一下。",
           "timestamp": "2024-08-23T11:25:00"
         },
         {
           "sender": "Megan",
-          "message": "Hey! Do you have time to review my PR today?",
+          "message": "嘿！你今天有时间评审我的 PR 吗？",
           "timestamp": "2024-08-23T11:20:00"
         }
       ]
@@ -166,21 +166,21 @@
       "profile": "https://randomuser.me/api/portraits/men/72.jpg",
       "username": "dev_david",
       "fullName": "David Brown",
-      "title": "Senior UI/UX Designer",
+      "title": "高级 UI/UX 设计师",
       "messages": [
         {
-          "sender": "You",
-          "message": "Great, I'll review them now!",
+          "sender": "你",
+          "message": "太好了，我现在就评审！",
           "timestamp": "2024-08-23T12:00:00"
         },
         {
           "sender": "David",
-          "message": "Just sent you the files. Let me know if you need any changes.",
+          "message": "文件刚发给你了，需要改动随时说。",
           "timestamp": "2024-08-23T11:58:00"
         },
         {
           "sender": "David",
-          "message": "I finished the design for the dashboard. Thoughts?",
+          "message": "仪表盘的设计我完成了，你觉得怎么样？",
           "timestamp": "2024-08-23T11:55:00"
         }
       ]
@@ -190,21 +190,21 @@
       "profile": "https://randomuser.me/api/portraits/women/68.jpg",
       "username": "julia.design",
       "fullName": "Julia Carter",
-      "title": "Product Designer",
+      "title": "产品设计师",
       "messages": [
         {
           "sender": "Julia",
-          "message": "Same here! It's coming together nicely.",
+          "message": "我也是！整体进展很顺利。",
           "timestamp": "2024-08-22T14:10:00"
         },
         {
-          "sender": "You",
-          "message": "I'm really excited to see the final product!",
+          "sender": "你",
+          "message": "我特别期待看到最终成品！",
           "timestamp": "2024-08-22T14:15:00"
         },
         {
-          "sender": "You",
-          "message": "How's the project looking on your end?",
+          "sender": "你",
+          "message": "你那边项目进展怎么样？",
           "timestamp": "2024-08-22T14:05:00"
         }
       ]
@@ -214,21 +214,21 @@
       "profile": "https://randomuser.me/api/portraits/men/24.jpg",
       "username": "brad_dev",
       "fullName": "Brad Wilson",
-      "title": "CEO",
+      "title": "首席执行官",
       "messages": [
         {
           "sender": "Brad",
-          "message": "Got it! Thanks for the update.",
+          "message": "收到！谢谢你的更新。",
           "timestamp": "2024-08-23T15:45:00"
         },
         {
-          "sender": "You",
-          "message": "The release has been delayed to next week.",
+          "sender": "你",
+          "message": "发布推迟到下周了。",
           "timestamp": "2024-08-23T15:40:00"
         },
         {
           "sender": "Brad",
-          "message": "Hey, any news on the release?",
+          "message": "嘿，发布那边有消息吗？",
           "timestamp": "2024-08-23T15:35:00"
         }
       ]
@@ -238,21 +238,21 @@
       "profile": "https://randomuser.me/api/portraits/women/34.jpg",
       "username": "katie_ui",
       "fullName": "Katie Lee",
-      "title": "QA",
+      "title": "测试工程师",
       "messages": [
         {
           "sender": "Katie",
-          "message": "I'll join the call in a few minutes.",
+          "message": "我几分钟后加入通话。",
           "timestamp": "2024-08-23T09:50:00"
         },
         {
-          "sender": "You",
-          "message": "Perfect! We'll start as soon as you're in.",
+          "sender": "你",
+          "message": "完美！你一进来我们就开始。",
           "timestamp": "2024-08-23T09:48:00"
         },
         {
           "sender": "Katie",
-          "message": "Is the meeting still on?",
+          "message": "会还开吗？",
           "timestamp": "2024-08-23T09:45:00"
         }
       ]
@@ -262,21 +262,21 @@
       "profile": "https://randomuser.me/api/portraits/men/67.jpg",
       "username": "matt_fullstack",
       "fullName": "Matt Green",
-      "title": "Full-stack Dev",
+      "title": "全栈开发",
       "messages": [
         {
           "sender": "Matt",
-          "message": "Sure thing, I'll send over the updates shortly.",
+          "message": "没问题，我马上把更新发过去。",
           "timestamp": "2024-08-23T10:25:00"
         },
         {
-          "sender": "You",
-          "message": "Could you update the backend as well?",
+          "sender": "你",
+          "message": "后端你也能顺便更新一下吗？",
           "timestamp": "2024-08-23T10:23:00"
         },
         {
           "sender": "Matt",
-          "message": "The frontend updates are done. How does it look?",
+          "message": "前端更新完成了，看起来怎么样？",
           "timestamp": "2024-08-23T10:20:00"
         }
       ]
@@ -286,21 +286,21 @@
       "profile": "https://randomuser.me/api/portraits/women/56.jpg",
       "username": "sophie_dev",
       "fullName": "Sophie Alex",
-      "title": "Jr. Frontend Dev",
+      "title": "初级前端开发",
       "messages": [
         {
-          "sender": "You",
-          "message": "Thanks! I'll review your code and get back to you.",
+          "sender": "你",
+          "message": "谢谢！我评审完代码再回复你。",
           "timestamp": "2024-08-23T16:10:00"
         },
         {
           "sender": "Sophie",
-          "message": "Let me know if you need anything else.",
+          "message": "还需要什么随时说。",
           "timestamp": "2024-08-23T16:05:00"
         },
         {
           "sender": "Sophie",
-          "message": "The feature is implemented. Can you review it?",
+          "message": "功能已经实现了，你能评审一下吗？",
           "timestamp": "2024-08-23T16:00:00"
         }
       ]

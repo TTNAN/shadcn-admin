@@ -7,7 +7,7 @@ export function MaintenanceError() {
         <h1 className='text-[7rem] leading-tight font-bold'>503</h1>
         <span className='font-medium'>网站正在维护中！</span>
         <p className='text-center text-muted-foreground'>
-          The site is not available at the moment. <br />
+          目前网站无法访问。 <br />
           我们会尽快恢复上线。
         </p>
         <div className='mt-6 flex gap-4'>

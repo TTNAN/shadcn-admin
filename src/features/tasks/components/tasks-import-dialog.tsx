@@ -76,7 +76,7 @@ export function TasksImportDialog({
         <DialogHeader className='text-start'>
           <DialogTitle>导入任务</DialogTitle>
           <DialogDescription>
-            Import tasks quickly from a CSV file.
+            从 CSV 文件快速导入任务。
           </DialogDescription>
         </DialogHeader>
         <Form {...form}>
@@ -86,7 +86,7 @@ export function TasksImportDialog({
               name='file'
               render={() => (
                 <FormItem className='my-2'>
-                  <FormLabel>File</FormLabel>
+                  <FormLabel>文件</FormLabel>
                   <FormControl>
                     <Input
                       type='file'

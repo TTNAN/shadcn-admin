@@ -210,7 +210,7 @@ function ThemeConfig() {
         ))}
       </Radio>
       <div id='theme-description' className='sr-only'>
-        Choose between system preference, light mode, or dark mode
+        在跟随系统、浅色模式或深色模式之间选择
       </div>
     </div>
   )
@@ -254,7 +254,7 @@ function SidebarConfig() {
         ))}
       </Radio>
       <div id='sidebar-description' className='sr-only'>
-        Choose between inset, floating, or standard sidebar layout
+        在内嵌、悬浮或标准侧边栏布局之间选择
       </div>
     </div>
   )
@@ -312,7 +312,7 @@ function LayoutConfig() {
         ))}
       </Radio>
       <div id='layout-description' className='sr-only'>
-        Choose between default expanded, compact icon-only, or full layout mode
+        在默认展开、紧凑图标或完整布局模式之间选择
       </div>
     </div>
   )
@@ -355,7 +355,7 @@ function DirConfig() {
         ))}
       </Radio>
       <div id='direction-description' className='sr-only'>
-        Choose between left-to-right or right-to-left site direction
+        在从左到右或从右到左的网站方向之间选择
       </div>
     </div>
   )

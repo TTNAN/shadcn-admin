@@ -31,7 +31,7 @@ const formSchema = z
     confirmPassword: z.string().min(1, '请确认密码。'),
   })
   .refine((data) => data.password === data.confirmPassword, {
-    message: "Passwords don't match.",
+    message: "密码不一致。",
     path: ['confirmPassword'],
   })
 
@@ -120,7 +120,7 @@ export function SignUpForm({
           </div>
           <div className='relative flex justify-center text-xs uppercase'>
             <span className='bg-background px-2 text-muted-foreground'>
-              Or continue with
+              或通过以下方式继续
             </span>
           </div>
         </div>

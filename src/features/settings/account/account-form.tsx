@@ -82,8 +82,7 @@ export function AccountForm() {
                 <Input placeholder='你的名字' {...field} />
               </FormControl>
               <FormDescription>
-                This is the name that will be displayed on your profile and in
-                emails.
+                这是将显示在你的个人资料和邮件中的名字。
               </FormDescription>
               <FormMessage />
             </FormItem>
@@ -97,7 +96,7 @@ export function AccountForm() {
               <FormLabel>出生日期</FormLabel>
               <DatePicker selected={field.value} onSelect={field.onChange} />
               <FormDescription>
-                Your date of birth is used to calculate your age.
+                你的出生日期将用于计算年龄。
               </FormDescription>
               <FormMessage />
             </FormItem>
@@ -160,7 +159,7 @@ export function AccountForm() {
                 </PopoverContent>
               </Popover>
               <FormDescription>
-                This is the language that will be used in the dashboard.
+                这是仪表盘中使用的语言。
               </FormDescription>
               <FormMessage />
             </FormItem>

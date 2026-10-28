@@ -26,8 +26,7 @@ function ClerkAuthLayout() {
         <div className='relative z-20 mt-auto'>
           <blockquote className='space-y-2'>
             <p className='text-lg'>
-              &ldquo; Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Sint, magni debitis inventore asperiores velit! &rdquo;
+              &ldquo; 这是一段示例引用文本，用于演示页面布局。&rdquo;
             </p>
             <footer className='text-sm'>John Doe</footer>
           </blockquote>
@@ -42,7 +41,7 @@ function ClerkAuthLayout() {
             }}
             contentProps={{ side: 'top', align: 'end', className: 'w-auto' }}
           >
-            Welcome to the example Clerk auth page. <br />
+            欢迎来到 Clerk 示例认证页。<br />
             Back to{' '}
             <Link
               to='/'

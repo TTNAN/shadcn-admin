@@ -115,7 +115,7 @@ export function UserAuthForm({
                 to='/forgot-password'
                 className='absolute inset-e-0 -top-0.5 text-sm font-medium text-muted-foreground hover:opacity-75'
               >
-                Forgot password?
+                忘记密码？
               </Link>
             </FormItem>
           )}
@@ -131,7 +131,7 @@ export function UserAuthForm({
           </div>
           <div className='relative flex justify-center text-xs uppercase'>
             <span className='bg-background px-2 text-muted-foreground'>
-              Or continue with
+              或通过以下方式继续
             </span>
           </div>
         </div>

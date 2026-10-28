@@ -66,7 +66,7 @@ export const apps = [
     desc: '轻松访问和管理 Gmail 邮件。',
   },
   {
-    name: '中',
+    name: 'Medium',
     logo: <IconMedium />,
     connected: false,
     desc: '在仪表盘中探索和分享 Medium 文章。',

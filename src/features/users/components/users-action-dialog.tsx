@@ -87,7 +87,7 @@ const formSchema = z
       return password === confirmPassword
     },
     {
-      message: "Passwords don't match.",
+      message: "密码不一致。",
       path: ['confirmPassword'],
     }
   )
@@ -317,7 +317,7 @@ export function UsersActionDialog({
         </div>
         <DialogFooter>
           <Button type='submit' form='user-form'>
-            Save changes
+            保存更改
           </Button>
         </DialogFooter>
       </DialogContent>

@@ -77,7 +77,7 @@ export function UsersDeleteDialog({
           <Alert variant='destructive'>
             <AlertTitle>警告！</AlertTitle>
             <AlertDescription>
-              Please be careful, this operation can not be rolled back.
+              请谨慎操作，此操作无法撤销。
             </AlertDescription>
           </Alert>
         </form>

@@ -330,11 +330,11 @@ export function Chats() {
                 <div className='space-y-2 text-center'>
                   <h1 className='text-xl font-semibold'>你的消息</h1>
                   <p className='text-sm text-muted-foreground'>
-                    Send a message to start a chat.
+                    发送消息开始聊天。
                   </p>
                 </div>
                 <Button onClick={() => setCreateConversationDialog(true)}>
-                  Send message
+                  发送消息
                 </Button>
               </div>
             </div>

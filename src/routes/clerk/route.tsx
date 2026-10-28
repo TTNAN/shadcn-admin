@@ -55,8 +55,8 @@ function MissingClerkPubKey() {
             <AlertTitle>未找到 Publishable Key！</AlertTitle>
             <AlertDescription>
               <p className='text-balance'>
-                You need to generate a publishable key from Clerk and put it
-                inside the <code className={codeBlock}>.env</code> file.
+                你需要从 Clerk 生成一个 publishable key，并把它放进
+                <code className={codeBlock}>.env</code> 文件中。
               </p>
             </AlertDescription>
           </Alert>
@@ -65,7 +65,7 @@ function MissingClerkPubKey() {
           <div className='mt-4 flex flex-col gap-y-4 text-foreground/75'>
             <ol className='list-inside list-decimal space-y-1.5'>
               <li>
-                In the{' '}
+                在{' '}
                 <a
                   href='https://go.clerk.com/GttUAaK'
                   target='_blank'
@@ -76,19 +76,19 @@ function MissingClerkPubKey() {
                     <ExternalLink className='inline-block size-4' />
                   </sup>
                 </a>{' '}
-                Dashboard, navigate to the API keys page.
+                控制台中，前往 API 密钥页面。
               </li>
               <li>
-                In the <strong>快速复制</strong> section, copy your Clerk
-                Publishable Key.
+                在 <strong>快速复制</strong> 部分，复制你的 Clerk
+                Publishable Key。
               </li>
               <li>
                 Rename <code className={codeBlock}>.env.example</code> to{' '}
                 <code className={codeBlock}>.env</code>
               </li>
               <li>
-                Paste your key into your <code className={codeBlock}>.env</code>{' '}
-                file.
+                把密钥粘贴到你的 <code className={codeBlock}>.env</code>{' '}
+                文件中。
               </li>
             </ol>
             <p>最终结果应如下所示：</p>
@@ -111,20 +111,17 @@ function MissingClerkPubKey() {
             <AlertTitle>Clerk 集成是可选的</AlertTitle>
             <AlertDescription>
               <p className='text-balance'>
-                The Clerk integration lives entirely inside{' '}
-                <code className={codeBlock}>src/routes/clerk</code>. If you plan
-                to use Clerk as your auth service, you might want to place{' '}
-                <code className={codeBlock}>ClerkProvider</code> at the root
-                route.
+                Clerk 集成完全位于{' '}
+                <code className={codeBlock}>src/routes/clerk</code> 内。如果你打算
+                把 Clerk 作为认证服务，可以把{' '}
+                <code className={codeBlock}>ClerkProvider</code> 放到根路由。
               </p>
               <p>
-                However, if you don't plan to use Clerk, you can safely remove
-                this directory and related dependency_{' '}
-                <code className={codeBlock}>@clerk/react</code>.
+                不过，如果你不打算使用 Clerk，可以安全地删除该目录及相关依赖{' '}
+                <code className={codeBlock}>@clerk/react</code>。
               </p>
               <p className='mt-2 text-sm'>
-                This setup is modular by design and won't affect the rest of the
-                application.
+                这套配置在设计上就是模块化的，不会影响应用的其他部分。
               </p>
             </AlertDescription>
           </Alert>

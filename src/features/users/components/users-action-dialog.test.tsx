@@ -13,7 +13,7 @@ const VALIDATION_MESSAGES = {
   email: '邮箱为必填项。',
   role: '角色为必填项。',
   password: '密码为必填项。',
-  passwordMismatch: "Passwords don't match.",
+  passwordMismatch: "密码不一致。",
   passwordLength: '密码至少需要 8 个字符。',
   passwordNumber: '密码必须包含至少一个数字。',
   passwordLowercase: '密码必须包含至少一个小写字母。',

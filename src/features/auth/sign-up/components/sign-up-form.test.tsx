@@ -7,7 +7,7 @@ const FORM_MESSAGES = {
   emailEmpty: '请输入邮箱。',
   passwordEmpty: '请输入密码。',
   confirmPasswordEmpty: '请确认密码。',
-  passwordMismatch: "Passwords don't match.",
+  passwordMismatch: "密码不一致。",
 } as const
 
 const toastPromise = vi.hoisted(() =>
