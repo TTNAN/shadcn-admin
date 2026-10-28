@@ -93,7 +93,7 @@ describe('UsersInviteDialog', () => {
     const { getByRole } = await render(<Harness />)
 
     const EMAIL_VALUE = 'test@example.com'
-    const ROLE_VALUE = 'Superadmin'
+    const ROLE_VALUE = '超级管理员'
     const DESC_VALUE = 'This is a test description'
 
     const emailInput = getByRole('textbox', { name: /Email/i })
@@ -117,7 +117,7 @@ describe('UsersInviteDialog', () => {
     await userEvent.click(reopenButton)
 
     await expect.element(emailInput).toHaveValue('')
-    await expect.element(roleSelect).toHaveTextContent('Select a role')
+    await expect.element(roleSelect).toHaveTextContent('选择角色')
     await expect.element(descInput).toHaveValue('')
   })
 
@@ -129,7 +129,7 @@ describe('UsersInviteDialog', () => {
 
     const EMAIL_VALUE = 'test@example.com'
     const ROLE_VALUE = 'superadmin'
-    const DESC_VALUE = 'Welcome aboard!'
+    const DESC_VALUE = '欢迎加入！'
 
     const emailInput = getByRole('textbox', { name: /Email/i })
     await userEvent.fill(emailInput, EMAIL_VALUE)

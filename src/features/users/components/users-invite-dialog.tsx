@@ -31,7 +31,7 @@ const formSchema = z.object({
     error: (iss) =>
       iss.input === '' ? 'Please enter an email to invite.' : undefined,
   }),
-  role: z.string().min(1, 'Role is required.'),
+  role: z.string().min(1, '角色为必填项。'),
   desc: z.string().optional(),
 })
 
@@ -86,7 +86,7 @@ export function UsersInviteDialog({
               name='email'
               render={({ field }) => (
                 <FormItem>
-                  <FormLabel>Email</FormLabel>
+                  <FormLabel>邮箱</FormLabel>
                   <FormControl>
                     <Input
                       type='email'
@@ -103,11 +103,11 @@ export function UsersInviteDialog({
               name='role'
               render={({ field }) => (
                 <FormItem>
-                  <FormLabel>Role</FormLabel>
+                  <FormLabel>角色</FormLabel>
                   <SelectDropdown
                     defaultValue={field.value}
                     onValueChange={field.onChange}
-                    placeholder='Select a role'
+                    placeholder='选择角色'
                     items={roles.map(({ label, value }) => ({
                       label,
                       value,
@@ -122,11 +122,11 @@ export function UsersInviteDialog({
               name='desc'
               render={({ field }) => (
                 <FormItem className=''>
-                  <FormLabel>Description (optional)</FormLabel>
+                  <FormLabel>描述（可选）</FormLabel>
                   <FormControl>
                     <Textarea
                       className='resize-none'
-                      placeholder='Add a personal note to your invitation (optional)'
+                      placeholder='为邀请添加个人附言（可选）'
                       {...field}
                     />
                   </FormControl>
@@ -138,7 +138,7 @@ export function UsersInviteDialog({
         </Form>
         <DialogFooter className='gap-y-2'>
           <DialogClose asChild>
-            <Button variant='outline'>Cancel</Button>
+            <Button variant='outline'>取消</Button>
           </DialogClose>
           <Button type='submit' form='user-invite-form'>
             Invite <Send />

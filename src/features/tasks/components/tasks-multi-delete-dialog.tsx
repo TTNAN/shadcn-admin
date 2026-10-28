@@ -36,7 +36,7 @@ export function TasksMultiDeleteDialog<TData>({
     onOpenChange(false)
 
     toast.promise(sleep(2000), {
-      loading: 'Deleting tasks...',
+      loading: '正在删除任务…',
       success: () => {
         setValue('')
         table.resetRowSelection()
@@ -44,7 +44,7 @@ export function TasksMultiDeleteDialog<TData>({
           selectedRows.length > 1 ? 'tasks' : 'task'
         }`
       },
-      error: 'Error',
+      error: '错误',
     })
   }
 
@@ -75,7 +75,7 @@ export function TasksMultiDeleteDialog<TData>({
         >
           <p className='mb-2'>
             Are you sure you want to delete the selected tasks? <br />
-            This action cannot be undone.
+            此操作无法撤销。
           </p>
 
           <Label className='my-4 flex flex-col items-start gap-1.5'>
@@ -89,14 +89,14 @@ export function TasksMultiDeleteDialog<TData>({
           </Label>
 
           <Alert variant='destructive'>
-            <AlertTitle>Warning!</AlertTitle>
+            <AlertTitle>警告！</AlertTitle>
             <AlertDescription>
               Please be careful, this operation can not be rolled back.
             </AlertDescription>
           </Alert>
         </form>
       }
-      confirmText='Delete'
+      confirmText='删除'
       destructive
     />
   )

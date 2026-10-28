@@ -4,9 +4,9 @@ import { type Locator, userEvent } from 'vitest/browser'
 import { SignUpForm } from './sign-up-form'
 
 const FORM_MESSAGES = {
-  emailEmpty: 'Please enter your email.',
-  passwordEmpty: 'Please enter your password.',
-  confirmPasswordEmpty: 'Please confirm your password.',
+  emailEmpty: '请输入邮箱。',
+  passwordEmpty: '请输入密码。',
+  confirmPasswordEmpty: '请确认密码。',
   passwordMismatch: "Passwords don't match.",
 } as const
 

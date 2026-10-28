@@ -36,7 +36,7 @@ export function UsersMultiDeleteDialog<TData>({
     onOpenChange(false)
 
     toast.promise(sleep(2000), {
-      loading: 'Deleting users...',
+      loading: '正在删除用户…',
       success: () => {
         setValue('')
         table.resetRowSelection()
@@ -44,7 +44,7 @@ export function UsersMultiDeleteDialog<TData>({
           selectedRows.length > 1 ? 'users' : 'user'
         }`
       },
-      error: 'Error',
+      error: '错误',
     })
   }
 
@@ -75,7 +75,7 @@ export function UsersMultiDeleteDialog<TData>({
         >
           <p className='mb-2'>
             Are you sure you want to delete the selected users? <br />
-            This action cannot be undone.
+            此操作无法撤销。
           </p>
 
           <Label className='my-4 flex flex-col items-start gap-1.5'>
@@ -89,14 +89,14 @@ export function UsersMultiDeleteDialog<TData>({
           </Label>
 
           <Alert variant='destructive'>
-            <AlertTitle>Warning!</AlertTitle>
+            <AlertTitle>警告！</AlertTitle>
             <AlertDescription>
               Please be careful, this operation can not be rolled back.
             </AlertDescription>
           </Alert>
         </form>
       }
-      confirmText='Delete'
+      confirmText='删除'
       destructive
     />
   )

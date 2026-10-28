@@ -4,9 +4,9 @@ import { type Locator, userEvent } from 'vitest/browser'
 import { UserAuthForm } from './user-auth-form'
 
 const FORM_MESSAGES = {
-  emailEmpty: 'Please enter your email.',
-  passwordEmpty: 'Please enter your password.',
-  passwordShort: 'Password must be at least 7 characters long.',
+  emailEmpty: '请输入邮箱。',
+  passwordEmpty: '请输入密码。',
+  passwordShort: '密码至少需要 7 个字符。',
 } as const
 
 const navigate = vi.fn()
@@ -116,7 +116,7 @@ describe('UserAuthForm', () => {
     )
 
     await userEvent.fill(getByRole('textbox', { name: /Email/i }), 'a@b.com')
-    await userEvent.fill(getByLabelText('Password'), '1234567')
+    await userEvent.fill(getByLabelText('密码'), '1234567')
 
     await userEvent.click(getByRole('button', { name: /Sign in/i }))
 

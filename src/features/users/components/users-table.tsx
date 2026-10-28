@@ -101,22 +101,22 @@ export function UsersTable({ data, search, navigate }: DataTableProps) {
     >
       <DataTableToolbar
         table={table}
-        searchPlaceholder='Filter users...'
+        searchPlaceholder='筛选用户…'
         searchKey='username'
         filters={[
           {
             columnId: 'status',
-            title: 'Status',
+            title: '状态',
             options: [
-              { label: 'Active', value: 'active' },
-              { label: 'Inactive', value: 'inactive' },
-              { label: 'Invited', value: 'invited' },
-              { label: 'Suspended', value: 'suspended' },
+              { label: '在用', value: 'active' },
+              { label: '未激活', value: 'inactive' },
+              { label: '已邀请', value: 'invited' },
+              { label: '已暂停', value: 'suspended' },
             ],
           },
           {
             columnId: 'role',
-            title: 'Role',
+            title: '角色',
             options: roles.map((role) => ({ ...role })),
           },
         ]}

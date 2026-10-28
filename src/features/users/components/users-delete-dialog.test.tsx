@@ -142,7 +142,7 @@ describe('UsersDeleteDialog', () => {
     expect(showSubmittedData).toHaveBeenCalledOnce()
     expect(showSubmittedData).toHaveBeenCalledWith(
       MOCK_USER,
-      'The following user has been deleted:'
+      '以下用户已被删除：'
     )
   })
 
@@ -172,7 +172,7 @@ describe('UsersDeleteDialog', () => {
     expect(showSubmittedData).toHaveBeenCalledOnce()
     expect(showSubmittedData).toHaveBeenCalledWith(
       MOCK_USER,
-      'The following user has been deleted:'
+      '以下用户已被删除：'
     )
   })
 })

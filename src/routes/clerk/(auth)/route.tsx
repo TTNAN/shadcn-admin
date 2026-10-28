@@ -48,7 +48,7 @@ function ClerkAuthLayout() {
               to='/'
               className='underline decoration-dashed underline-offset-2'
             >
-              Dashboard
+              仪表盘
             </Link>{' '}
             ?
           </LearnMore>

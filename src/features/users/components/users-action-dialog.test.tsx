@@ -6,17 +6,17 @@ import { type User } from '../data/schema'
 import { UsersActionDialog } from './users-action-dialog'
 
 const VALIDATION_MESSAGES = {
-  firstName: 'First Name is required.',
-  lastName: 'Last Name is required.',
-  username: 'Username is required.',
-  phoneNumber: 'Phone number is required.',
-  email: 'Email is required.',
-  role: 'Role is required.',
-  password: 'Password is required.',
+  firstName: '名字为必填项。',
+  lastName: '姓氏为必填项。',
+  username: '用户名为必填项。',
+  phoneNumber: '电话号码为必填项。',
+  email: '邮箱为必填项。',
+  role: '角色为必填项。',
+  password: '密码为必填项。',
   passwordMismatch: "Passwords don't match.",
-  passwordLength: 'Password must be at least 8 characters long.',
-  passwordNumber: 'Password must contain at least one number.',
-  passwordLowercase: 'Password must contain at least one lowercase letter.',
+  passwordLength: '密码至少需要 8 个字符。',
+  passwordNumber: '密码必须包含至少一个数字。',
+  passwordLowercase: '密码必须包含至少一个小写字母。',
 } as const
 
 const MOCK_USER: User = {
@@ -328,7 +328,7 @@ async function fillRequiredProfileFields(
   const roleSelect = screen.getByRole('combobox', { name: /Role/i })
   await user.click(roleSelect)
   await user.click(
-    screen.getByRole('option', { name: overrides?.roleOption ?? 'Superadmin' })
+    screen.getByRole('option', { name: overrides?.roleOption ?? '超级管理员' })
   )
 }
 

@@ -21,7 +21,7 @@ const items = [
   },
   {
     id: 'home',
-    label: 'Home',
+    label: '首页',
   },
   {
     id: 'applications',
@@ -29,7 +29,7 @@ const items = [
   },
   {
     id: 'desktop',
-    label: 'Desktop',
+    label: '桌面',
   },
   {
     id: 'downloads',
@@ -43,7 +43,7 @@ const items = [
 
 const displayFormSchema = z.object({
   items: z.array(z.string()).refine((value) => value.some((item) => item), {
-    message: 'You have to select at least one item.',
+    message: '你必须至少选择一项。',
   }),
 })
 
@@ -72,7 +72,7 @@ export function DisplayForm() {
           render={() => (
             <FormItem>
               <div className='mb-4'>
-                <FormLabel className='text-base'>Sidebar</FormLabel>
+                <FormLabel className='text-base'>侧边栏</FormLabel>
                 <FormDescription>
                   Select the items you want to display in the sidebar.
                 </FormDescription>
@@ -114,7 +114,7 @@ export function DisplayForm() {
             </FormItem>
           )}
         />
-        <Button type='submit'>Update display</Button>
+        <Button type='submit'>更新显示设置</Button>
       </form>
     </Form>
   )

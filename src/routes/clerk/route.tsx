@@ -52,7 +52,7 @@ function MissingClerkPubKey() {
         <div className='max-w-2xl'>
           <Alert>
             <Key className='size-4' />
-            <AlertTitle>No Publishable Key Found!</AlertTitle>
+            <AlertTitle>未找到 Publishable Key！</AlertTitle>
             <AlertDescription>
               <p className='text-balance'>
                 You need to generate a publishable key from Clerk and put it
@@ -61,7 +61,7 @@ function MissingClerkPubKey() {
             </AlertDescription>
           </Alert>
 
-          <h1 className='mt-4 text-2xl font-bold'>Set your Clerk API key</h1>
+          <h1 className='mt-4 text-2xl font-bold'>设置你的 Clerk API 密钥</h1>
           <div className='mt-4 flex flex-col gap-y-4 text-foreground/75'>
             <ol className='list-inside list-decimal space-y-1.5'>
               <li>
@@ -79,7 +79,7 @@ function MissingClerkPubKey() {
                 Dashboard, navigate to the API keys page.
               </li>
               <li>
-                In the <strong>Quick Copy</strong> section, copy your Clerk
+                In the <strong>快速复制</strong> section, copy your Clerk
                 Publishable Key.
               </li>
               <li>
@@ -91,7 +91,7 @@ function MissingClerkPubKey() {
                 file.
               </li>
             </ol>
-            <p>The final result should resemble the following:</p>
+            <p>最终结果应如下所示：</p>
 
             <div className='@container space-y-2 rounded-md bg-slate-800 px-3 py-3 text-sm text-slate-200'>
               <span className='ps-1'>.env</span>
@@ -108,7 +108,7 @@ function MissingClerkPubKey() {
           <Separator className='my-4 w-full' />
 
           <Alert>
-            <AlertTitle>Clerk Integration is Optional</AlertTitle>
+            <AlertTitle>Clerk 集成是可选的</AlertTitle>
             <AlertDescription>
               <p className='text-balance'>
                 The Clerk integration lives entirely inside{' '}

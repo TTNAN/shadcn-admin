@@ -56,7 +56,7 @@ export function AppearanceForm() {
           name='font'
           render={({ field }) => (
             <FormItem>
-              <FormLabel>Font</FormLabel>
+              <FormLabel>字体</FormLabel>
               <div className='relative w-max'>
                 <FormControl>
                   <select
@@ -88,7 +88,7 @@ export function AppearanceForm() {
           name='theme'
           render={({ field }) => (
             <FormItem>
-              <FormLabel>Theme</FormLabel>
+              <FormLabel>主题</FormLabel>
               <FormDescription>
                 Select the theme for the dashboard.
               </FormDescription>
@@ -120,7 +120,7 @@ export function AppearanceForm() {
                       </div>
                     </div>
                     <span className='block w-full p-2 text-center font-normal'>
-                      Light
+                      浅色
                     </span>
                   </FormLabel>
                 </FormItem>
@@ -146,7 +146,7 @@ export function AppearanceForm() {
                       </div>
                     </div>
                     <span className='block w-full p-2 text-center font-normal'>
-                      Dark
+                      深色
                     </span>
                   </FormLabel>
                 </FormItem>
@@ -155,7 +155,7 @@ export function AppearanceForm() {
           )}
         />
 
-        <Button type='submit'>Update preferences</Button>
+        <Button type='submit'>更新偏好设置</Button>
       </form>
     </Form>
   )

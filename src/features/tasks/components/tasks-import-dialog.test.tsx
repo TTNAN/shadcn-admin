@@ -20,10 +20,10 @@ describe('TasksImportDialog', () => {
       level: 2,
       name: /Import Tasks/i,
     })
-    const desc = getByText('Import tasks quickly from a CSV file')
+    const desc = getByText('从 CSV 文件快速导入任务')
     const fileInput = getByLabelText('File')
     const closeButtons = getByRole('dialog')
-      .getByRole('button', { name: 'Close' })
+      .getByRole('button', { name: '关闭' })
       .all()
 
     const importButton = getByRole('button', { name: /^Import$/i })
@@ -44,7 +44,7 @@ describe('TasksImportDialog', () => {
     const importButton = getByRole('button', { name: /^Import$/i })
     await userEvent.click(importButton)
 
-    await expect.element(getByText('Please upload a file.')).toBeInTheDocument()
+    await expect.element(getByText('请上传文件。')).toBeInTheDocument()
     expect(onOpenChange).not.toHaveBeenCalled()
     expect(showSubmittedData).not.toHaveBeenCalled()
   })
@@ -68,7 +68,7 @@ describe('TasksImportDialog', () => {
         size: csv.size,
         type: 'text/csv',
       },
-      'You have imported the following file:'
+      '已导入以下文件：'
     )
     expect(onOpenChange).toHaveBeenCalledOnce()
     expect(onOpenChange).toHaveBeenCalledWith(false)
